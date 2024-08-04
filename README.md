@@ -3,9 +3,9 @@
 <br>
 <h2>Este projeto é uma cópia do site da Tesla, desenvolvi com as habilidades adquiridas no curso do <a href="https://rodolfomori.com.br/devclub/">DevClub</a></h2>
 <br>
-  <img src="https://github.com/WenddylReis/" width=700px/>
-  <img src="https://github.com/WenddylReis/" width=700px/>
-  <img src="https://github.com/WenddylReis/" width=700px/>
+  <img src="./assets/Foto 01 - Tesla.png" width=700px/>
+  <img src="./assets/Foto 02 - Tesla.png" width=700px/>
+  <img src="./assets/Foto 03 - Tesla.png" width=700px/>
  
 <h3>Tecnologias utilizadas</h3>
   <br>
@@ -13,7 +13,7 @@
     <p>CSS3: Estilização e layout responsivo</p>
     <p>JavaScript: Funcionalidades interativas</p>
   <br>
-<img src="https://github.com/WenddylReis/"/>
-<img src="https://github.com/WenddylReis/"/>
-<img src="https://github.com/WenddylReis/"/>
+<img src="./assets/Foto 04 - Tesla.png"/>
+<img src="./assets/Foto 05 - Tesla.png"/>
+<img src="./assets/Foto 06 - Tesla.png"/>
 <h3>Projeto Responsivo</h3>
