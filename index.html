@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="style.css" />
+  <title>Electric Cars</title>
+</head>
+
+<body id="Home">
+  <header>
+    <nav>
+      <ul>
+        <li><a href="#Home">Home</a></li>
+        <li><a href="#model-s">Model S</a></li>
+        <li><a href="#model-x">Model X</a></li>
+        <li><a href="#model-3">Model 3</a></li>
+      </ul>
+    </nav>
+  </header>
+  <img src="./img/logo.png" alt="logo da tesla" class="logo" />
+
+  <ul class="lista">
+    <li class="item">
+      <video src="./img/model-y.mp4" muted loop autoplay></video>
+
+      <div class="info-carro">
+        <h1>Model Y</h1>
+        <p class="sub-titulo">Parcelar a partir de 499 dólares</p>
+      </div>
+
+      <div class="rodape">
+        <button onclick="aparecerFormulario()">Comprar Agora</button>
+        <a href="https://www.tesla.com/"><button class="test-drive">Faça um Test-Drive</button></a>
+        <p class="texto-rodape">
+          Não garantimos seu veículo imediatamente. Consultar estoque*
+        </p>
+      </div>
+    </li>
+
+    <li class="item" id="model-s">
+      <img src="./img/model-s.png" class="img-tesla" alt="img-model-s" />
+      <div class="info-carro">
+        <h1>Model S</h1>
+        <p class="sub-titulo">Parcelar a partir de 599 dólares</p>
+
+        <div class="rodape">
+          <button onclick="aparecerFormulario()">Comprar Agora</button>
+          <a href="https://www.tesla.com/"><button class="test-drive">Faça um Test-Drive</button></a>
+        </div>
+    </li>
+
+    <li class="item" id="model-x">
+      <img src="./img/model-x.png" class="img-tesla" alt="img-model-x" />
+      <div class="info-carro">
+        <h1>Model X</h1>
+        <p class="sub-titulo">Encomende agora mesmo o seu</p>
+
+        <div class="rodape">
+          <button onclick="aparecerFormulario()">Comprar Agora</button>
+          <a href="https://www.tesla.com/"><button class="test-drive">Faça um Test-Drive</button></a>
+        </div>
+    </li>
+
+    <li class="item" id="model-3">
+      <img src="./img/model-3.png" class="img-tesla" alt="img-model-3" />
+      <div class="info-carro">
+        <h1>Model 3</h1>
+        <p class="sub-titulo">Compre agora seu Tesla</p>
+
+        <div class="rodape">
+          <button onclick="aparecerFormulario()">Comprar Agora</button>
+          <a href="https://www.tesla.com/"><button class="test-drive">Faça um Test-Drive</button></a>
+        </div>
+    </li>
+
+    <li class="item">
+      <video src="./img/tesla.mp4" muted loop autoplay></video>
+
+      <div class="info-carro">
+        <h1>Test-Drive</h1>
+        <p class="sub-titulo">Faça agora um test-drive</p>
+      </div>
+
+      <div class="rodape">
+        <button onclick="aparecerFormulario()">Comprar Agora</button>
+        <a href="https://www.tesla.com/"><button class="test-drive">Faça um Test-Drive</button></a>
+        <p class="texto-rodape">
+          Não garantimos seu veículo imediatamente. Consultar estoque*
+        </p>
+      </div>
+    </li>
+  </ul>
+
+  <div class="formulario">
+    <button onclick="desaparecerFormulario()">Fechar</button>
+    <script type="text/javascript" src="https://form.jotform.com/jsform/242164080818051"></script>
+  </div>
+
+  <footer>
+    <p>&copy;Wenddyl Reis. Todos os direitos reservados.</p>
+
+  </footer>
+</body>
+<script src="script.js"></script>
+
+</html>
