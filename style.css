@@ -133,6 +133,15 @@ h1 {
     /* Cor do texto */
 }
 
+.info-equipamento {
+    margin-top: 80px;
+    /* Espaçamento superior */
+    text-align: center;
+    /* Centraliza o texto */
+    color: white;
+    /* Cor do texto */
+}
+
 .rodape {
     text-align: center;
     /* Centraliza o texto */
@@ -259,6 +268,10 @@ footer p {
         /* Ajusta o espaçamento superior das informações do carro */
     }
 
+    .info-equipamento {
+        margin-top: 40px;
+    }
+
     button {
         padding: 7px 40px;
         /* Ajusta o espaçamento interno do botão */
@@ -309,6 +322,10 @@ footer p {
     .info-carro {
         margin-top: 20px;
         /* Ajusta o espaçamento superior das informações do carro */
+    }
+
+    .info-equipamento {
+        margin-top: 20px;
     }
 
     button {
